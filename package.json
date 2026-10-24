@@ -1,7 +1,7 @@
 {
-  "name": "rashd-the-ai",
+  "name": "talha-the-ai",
   "version": "2.1.0",
-  "description": "RASHD THE AI — WhatsApp bot with terminal dashboard, AI replies, image generation. Developed by 『 R A S H D 』 t.me/v4zrasehd",
+  "description": "TALHA THE AI — WhatsApp bot with terminal dashboard, AI replies, image generation. Developed by 『 T A L H A 』 https://wa.me/8801978726477",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,8 +10,8 @@
   "engines": {
     "node": ">=18"
   },
-  "keywords": ["whatsapp", "bot", "baileys", "ai", "rashd", "chatbot", "image-generation"],
-  "author": "RASHD (t.me/v4zrasehd)",
+  "keywords": ["whatsapp", "bot", "baileys", "ai", "talha", "chatbot", "image-generation"],
+  "author": "TALHA (https://wa.me/8801978726477)",
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
