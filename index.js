@@ -71,8 +71,8 @@ function extractImagePrompt(text) {
 
 // ── AI API ──
 const GEM_ID  = 'c477280c-3abb-4a93-8b8a-fdc8e56830dc';
-const API_URL = `https://nxtai.zipohostbd.workers.dev/api/use?gem=${GEM_ID}`;
-const API_KEY = 'nxt_3a454c41e6a84aeead28d1fb4aec87a4';
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent`;
+const API_KEY = 'AQ.Ab8RN6IWrEfm9GQW2zc-AywudQxcF9KhBd-744OL7ZBSp896CA';
 
 async function askAI(userMessage) {
     try {
