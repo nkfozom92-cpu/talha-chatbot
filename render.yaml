@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: rashd-the-ai
+    name: TALHA-the-ai
     runtime: node
     plan: free
     region: singapore   # Asia-closest region for BD users
