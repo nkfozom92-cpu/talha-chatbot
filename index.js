@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 // this relative resolution works perfectly.
 const AUTH_DIR = process.env.AUTH_DIR || path.join(__dirname, 'auth_info');
 
-// ── RASHD THE AI System Prompt ──
+// ── TALHA THE AI System Prompt ──
 const SYSTEM_PROMPT = `তুমি হলে "TALHA THE AI" — একজন বন্ধু এবং সাহায্যকারী।
 
 তোমার ব্যক্তিত্ব:
@@ -90,7 +90,7 @@ async function askAI(userMessage) {
             || '⚠️ কোনো উত্তর পাওয়া যায়নি।';
     } catch (err) {
         pushLog('❌ AI Error: ' + (err.response?.status || err.message));
-        return '⚠️ দুঃখিত, AI সার্ভারে সমস্যা হচ্ছে। একটু পরে আবার চেষ্টা করুন।';
+        return '⚠️ দুঃখিত, মোঃ তালহা ইসলাম এখন ব্যস্ত তাই একটু পরে মেসেজ করুন।';
     }
 }
 
@@ -109,7 +109,7 @@ async function fetchImageBuffer(prompt, attempts = 4) {
             const res = await axios.get(url, {
                 responseType: 'arraybuffer',
                 timeout: 90_000,
-                headers: { 'User-Agent': 'RASHD-THE-AI/2.0' },
+                headers: { 'User-Agent': 'TALHA-THE-AI/2.0' },
             });
             if (res.data && res.data.byteLength > 1000) return Buffer.from(res.data);
             throw new Error('empty image response');
@@ -140,7 +140,7 @@ app.get('/health', (_req, res) => {
 // ── API: status ──
 app.get('/api/status', (_req, res) => {
     res.json({
-        name: 'RASHD THE AI',
+        name: 'TALHA THE AI',
         whatsapp: waConnected ? 'connected' : (waStarting ? 'pairing' : 'offline'),
         phoneNumber: waPhoneNumber,
         pairingCode,
@@ -235,7 +235,7 @@ app.get('/', (_req, res) => {
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
 <meta name="theme-color" content="#05070d"/>
-<title>RASHD THE AI — WhatsApp Bot Terminal</title>
+<title>TALHA THE AI — WhatsApp Bot Terminal</title>
 <meta http-equiv="refresh" content="${refreshSec}"/>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
@@ -408,7 +408,7 @@ ${formBlock}
 <div class="terminal-wrap">
   <div class="terminal-bar">
     <span class="dot"></span><span class="dot y"></span><span class="dot g"></span>
-    <span class="label">rashd@ai:~$</span>
+    <span class="label">talha@ai:~$</span>
   </div>
   <div class="terminal">${logHTML}</div>
 </div>
@@ -416,9 +416,9 @@ ${formBlock}
 ${resetBlock}
 
 <div class="footer">
-  <div class="dev">『 R A S H D 』</div>
-  <a href="https://t.me/v4zrasehd" target="_blank" rel="noopener">📩 t.me/v4zrasehd</a>
-  <div class="tag">DEVELOPED · MAINTAINED · POWERED BY RASHD</div>
+  <div class="dev">『 T A L H A 』</div>
+  <a href="https://t.me/talha14486909" target="_blank" rel="noopener">📩 t.me/talha14486909</a>
+  <div class="tag">DEVELOPED · MAINTAINED · POWERED BY TALHA</div>
 </div>
 
 <script>
@@ -453,7 +453,7 @@ document.getElementById('phone') &&
 
 // ── Server startup ──
 app.listen(PORT, '0.0.0.0', () => {
-    pushLog(`✅ RASHD THE AI terminal running on port ${PORT}`);
+    pushLog(`✅ TALHA THE AI terminal running on port ${PORT}`);
     pushLog(`📁 Auth directory: ${AUTH_DIR}`);
 
     // Auto-resume if auth session exists
