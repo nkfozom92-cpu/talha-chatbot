@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 const AUTH_DIR = process.env.AUTH_DIR || path.join(__dirname, 'auth_info');
 
 // ── RASHD THE AI System Prompt ──
-const SYSTEM_PROMPT = `তুমি হলে "RASHD THE AI" — একজন বন্ধু এবং সাহায্যকারী।
+const SYSTEM_PROMPT = `তুমি হলে "TALHA THE AI" — একজন বন্ধু এবং সাহায্যকারী।
 
 তোমার ব্যক্তিত্ব:
 - তুমি ব্যবহারকারীর একজন বিশ্বস্ত বন্ধু এবং সব সময় সাহায্যের জন্য প্রস্তুত।
@@ -29,7 +29,7 @@ const SYSTEM_PROMPT = `তুমি হলে "RASHD THE AI" — একজন �
 সর্বদা সংক্ষিপ্ত, পরিষ্কার ও সহায়ক উত্তর দাও। মিথ্যা তথ্য দিও না — না জানলে সরাসরি বলে দাও।`;
 
 // ── State ──
-let logs      = ['🚀 RASHD THE AI starting up...'];
+let logs      = ['🚀 TALHA THE AI starting up...'];
 let pairingCode  = null;
 let waConnected  = false;
 let waSocket     = null;
