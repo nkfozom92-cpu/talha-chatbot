@@ -1,0 +1,27 @@
+{
+  "name": "rashd-the-ai",
+  "version": "2.1.0",
+  "description": "RASHD THE AI — WhatsApp bot with terminal dashboard, AI replies, image generation. Developed by 『 R A S H D 』 t.me/v4zrasehd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "ai", "rashd", "chatbot", "image-generation"],
+  "author": "RASHD (t.me/v4zrasehd)",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
