@@ -1,16 +1,16 @@
 <div align="center">
 
-<!-- RASHD Chatbot Logo -->
-<img src="assets/logo.jpg" alt="RASHD Chatbot Logo" width="180" height="180"/>
+<!-- TALHA Chatbot Logo -->
+<img src="assets/logo.jpg" alt="TALHA Chatbot Logo" width="180" height="180"/>
 
-# ✨ RASHD Chatbot ✨
+# ✨ TALHA Chatbot ✨
 
 ### 🤖 সম্পূর্ণ স্মার্ট WhatsApp AI চ্যাটবট — প্রশ্ন, ছবি তৈরি, সবকিছু!
 
 [![Version](https://img.shields.io/badge/Version-2.1.0-00d4ff?style=for-the-badge&color=00d4ff)](package.json)
 [![License](https://img.shields.io/badge/License-ISC-aa66ff?style=for-the-badge&color=aa66ff)](package.json)
 [![Language](https://img.shields.io/badge/Language-Bangla%20%26%20English-00ffaa?style=for-the-badge&color=00ffaa)](index.js)
-[![Made by RASHD](https://img.shields.io/badge/Made%20by-RASHD-ff55f7?style=for-the-badge&color=ff55f7)](https://t.me/v4zrasehd)
+[![Made by TALHA](https://img.shields.io/badge/Made%20by-RASHD-ff55f7?style=for-the-badge&color=ff55f7)](https://t.me/v4zrasehd)
 
 <img src="assets/banner.jpg" alt="RASHD Chatbot Banner" width="100%"/>
 
@@ -24,8 +24,8 @@
 
 এটি একটি টার্মিনাল ড্যাশবোর্ডের মাধ্যমে নিয়ন্ত্রণ করা যায়, যেখানে আপনি WhatsApp পেয়ারিং কোড দিয়ে বটটিকে চালু করতে পারবেন।
 
-> 💫 **নির্মাতা:** RASHD
-> 📩 **Telegram:** [@v4zrasehd](https://t.me/v4zrasehd)
+> 💫 **নির্মাতা:** TALHA
+> 📩 **Telegram:** [@TALHA](https://wa.me/8801978726477))
 
 ---
 
@@ -179,9 +179,9 @@ A: ড্যাশবোর্ডে **RESET SESSION** বাটনে ক্ল
 
 ### 🕊️ শুভেচ্ছা
 
-**Made with ❤️ by RASHD**
+**Made with ❤️ by TALHA**
 
-💬 [Telegram](https://t.me/v4zrasehd) · ⚙️ Powered by AI
+💬 [WHAT'S APP](https://wa.me/8801978726477) · ⚙️ Powered by AI
 
 ---
 
